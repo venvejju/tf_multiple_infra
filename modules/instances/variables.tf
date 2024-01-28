@@ -6,6 +6,7 @@ variable "instance_configurations" {
       
       ami = string
       instance_type = string
+      tags = map(string)
 
    }))
 

@@ -6,6 +6,6 @@ resource "aws_instance" "ec2_instance" {
 
     instance_type = var.instance_configurations[each.key].instance_type
     
-
+    tags = var.instance_configurations[each.key].tags
 
 }

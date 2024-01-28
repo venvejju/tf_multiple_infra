@@ -5,6 +5,16 @@ instance_configurations = {
         "ami" : "ami-0a5ac53f63249fba0",
 
         "instance_type" : "t2.micro"
+        
+        "tags" = {
+      
+             Name = "Instance1"
+             Environment = "Dev"
+
+
+
+
+         }
 
     },
 
@@ -17,7 +27,16 @@ instance_configurations = {
         "instance_type" : "t2.nano",
 
         #"no_of_instances" : "1"
+        
+        "tags" = {
 
+             Name = "Instance2"
+             Environment = "Prod"
+
+
+
+
+         }
     }
 
 }
